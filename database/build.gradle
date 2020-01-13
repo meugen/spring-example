@@ -12,5 +12,8 @@ repositories {
 }
 
 dependencies {
+    compile group: 'org.springframework', name: 'spring-context', version: versions.spring.framework
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: versions.spring.boot
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

@@ -1,0 +1,8 @@
+ext {
+    versions = [
+            'spring': [
+                    'framework': '5.2.2.RELEASE',
+                    'boot': '2.2.2.RELEASE'
+            ]
+    ]
+}

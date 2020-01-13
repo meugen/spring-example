@@ -1,3 +1,7 @@
+buildscript {
+    apply from: 'properties.gradle'
+}
+
 plugins {
     id 'java'
 }
